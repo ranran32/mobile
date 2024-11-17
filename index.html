@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <section class="first" id="#first">
+        <div class="f_container">
+
+            <div> <div class="text-container">
+                <h2 class="name">I am <span class="randy">Randy</span></h2>
+                <h2 class="dev"><span>A</span> Web Developer </h2>
+            </div></div>
+
+            <div>
+                <h1>Welcome!</h1>
+           
+            <img width="230px" height="150px" src="pexels-stefanstefancik-91227.jpg" alt="">
+            <div class="p_container">
+                <p>This is my first try to develop using my mobile as my second monitor. This is very helpful for responsiveness</p>
+            </div>
+            <a href="#second">
+                <button class="f_btn">Scroll</button>
+            </a>
+            </div>
+
+            
+        </div>
+    </section>
+    <section id="second">
+        <div class="sec_container">
+            <h1 class="h11">This section is for scroll animation</h1>
+            <div class="img_container"  data-aos="fade-up-left"  data-aos-duration="1000" >
+                <div class="img1_container">
+                    <img class="img1" height="100px" width="160px" src="pexels-pixabay-33045.jpg" alt="">
+                    <p class="p-left">A lion is a large, social carnivore known for its mane and strength. <span class="span-text">This Text is only visible in large screeen devices </span></p>
+                </div>
+               <div class="img2_container" data-aos="fade-up-right"  data-aos-duration="1000">
+                <img class="img2" height="100px" width="160px" src="pexels-pixabay-45853.jpg" alt="">
+                <p  class="p-right">Large birds are big species like ostriches and emus, often flightless.<span class="span-text">This Text is only visible in large screeen devices </span></p>
+               </div>
+               <div class="img3_container"  data-aos="fade-up-left" data-aos-duration="1000">
+                <img class="img3" height="100px" width="160px" src="pexels-mnannapaneni-29388750.jpg" alt="">
+                <p class="p-left">A jaguar is a large, spotted big cat native to the Americas. <span class="span-text">This Text is only visible in large screeen devices </span> </p>
+               </div>
+               <div class="img4_container" data-aos="fade-up-right" data-aos-duration="1000">
+                <img class="img4" height="100px" width="160px" src="pexels-stephen-joel-391346-1040659.jpg" alt="">
+                <p class="p-right">A snake is a long, legless reptile known for its slithering movement. <span class="span-text">This Text is only visible in large screeen devices </span></p>
+               </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
